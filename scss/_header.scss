@@ -1,0 +1,46 @@
+@import "vars";
+
+.header {
+  margin-top: 38px;
+
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    display: flex;
+
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    // flex-wrap: wrap;
+
+    &-link {
+      text-decoration: none;
+    }
+
+    &-item {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: $dark;
+      margin-right: 50px;
+    }
+    &-logo {
+      margin-left: 283px;
+      text-decoration: none;
+      margin-right: 10px;
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: $green;
+      text-align: center;
+    }
+  }
+}

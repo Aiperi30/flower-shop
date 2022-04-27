@@ -1,0 +1,27 @@
+@import "vars";
+
+.list {
+  margin: 0;
+  padding: 0;
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: $main-bg;
+    border-radius: 7px;
+    padding: 13px 33px;
+    &-item {
+      list-style: none;
+    }
+    &-link {
+      text-decoration: none;
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      //   color: $light;
+    }
+  }
+}
